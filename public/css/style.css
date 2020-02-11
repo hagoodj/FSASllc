@@ -185,6 +185,10 @@ h1 {
     color: black;
 }
 
+.btn-link:hover {
+    color: gray;
+}
+
 @media only screen and (max-width:800px) {
     h1 {
       font-size: 60px;
