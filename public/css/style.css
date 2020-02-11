@@ -1,0 +1,200 @@
+
+
+body {
+    background: url("../img/background2.jpeg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    background-color: white;
+    margin-top: 40px;
+    -webkit-box-shadow: 0 0 10px gray;
+    -moz-box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 10px gray;
+    padding-left: 40px;
+    padding: 40px;
+}
+
+.nav {
+    background-color: black;
+}
+
+.nav-link {
+    color:white;
+}
+
+.nav-link:hover {
+    color: gray;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.column-center {
+    text-align: center;
+}
+
+.list {
+    padding: 5px;
+    border: lightgray solid 1px;
+    margin: 3px;
+    color:white;
+}
+
+#list1 {
+    
+    background: -webkit-linear-gradient(to right, #242424, #a1a1a1);
+    background: -moz-linear-gradient(to right, #242424, #a1a1a1);
+    background: linear-gradient(to right, #242424, #a1a1a1);
+}
+
+
+#list2 {
+
+    background: -webkit-linear-gradient(to right, #242424, #a1a1a1);
+    background: -moz-linear-gradient(to right, #242424, #a1a1a1);
+    background: linear-gradient(to right, #242424, #a1a1a1);
+}
+
+
+#list3 {
+    
+    background: -webkit-linear-gradient(to right, #242424, #a1a1a1);
+    background: -moz-linear-gradient(to right, #242424, #a1a1a1);
+    background: linear-gradient(to right, #242424, #a1a1a1);
+}
+
+
+#list4 {
+    
+    background: -webkit-linear-gradient(to right, #242424, #a1a1a1);
+    background: -moz-linear-gradient(to right, #242424, #a1a1a1);
+    background: linear-gradient(to right, #242424, #a1a1a1);
+}
+
+
+#list5 {
+    
+    background: -webkit-linear-gradient(to right, #242424, #a1a1a1);
+    background: -moz-linear-gradient(to right, #242424, #a1a1a1);
+    background: linear-gradient(to right, #242424, #a1a1a1);
+}
+
+
+#list6 {
+    
+    background: -webkit-linear-gradient(to right, #242424, #a1a1a1);
+    background: -moz-linear-gradient(to right, #242424, #a1a1a1);
+    background: linear-gradient(to right, #242424, #a1a1a1);
+}
+
+
+#list7 {
+    
+    background: -webkit-linear-gradient(to right, #242424, #a1a1a1);
+    background: -moz-linear-gradient(to right, #242424, #a1a1a1);
+    background: linear-gradient(to right, #242424, #a1a1a1);
+}
+
+
+#list8 {
+    
+    background: -webkit-linear-gradient(to right, #242424, #a1a1a1);
+    background: -moz-linear-gradient(to right, #242424, #a1a1a1);
+    background: linear-gradient(to right, #242424, #a1a1a1);
+}
+
+
+#list9 {
+    
+    background: -webkit-linear-gradient(to right, #242424, #a1a1a1);
+    background: -moz-linear-gradient(to right, #242424, #a1a1a1);
+    background: linear-gradient(to right, #242424, #a1a1a1);
+}
+
+
+#list10 {
+    
+    background: -webkit-linear-gradient(to right, #242424, #a1a1a1);
+    background: -moz-linear-gradient(to right, #242424, #a1a1a1);
+    background: linear-gradient(to right, #242424, #a1a1a1);
+}
+
+
+#list11 {
+    
+    background: -webkit-linear-gradient(to right, #242424, #a1a1a1);
+    background: -moz-linear-gradient(to right, #242424, #a1a1a1);
+    background: linear-gradient(to right, #242424, #a1a1a1);
+}
+
+
+#list12 {
+    
+    background: -webkit-linear-gradient(to right, #242424, #a1a1a1);
+    background: -moz-linear-gradient(to right, #242424, #a1a1a1);
+    background: linear-gradient(to right, #242424, #a1a1a1);
+}
+
+
+#list13 {
+    
+    background: -webkit-linear-gradient(to right, #242424, #a1a1a1);
+    background: -moz-linear-gradient(to right, #242424, #a1a1a1);
+    background: linear-gradient(to right, #242424, #a1a1a1);
+}
+
+
+#list14 {
+    
+    background: -webkit-linear-gradient(to right, #242424, #a1a1a1);
+    background: -moz-linear-gradient(to right, #242424, #a1a1a1);
+    background: linear-gradient(to right, #242424, #a1a1a1);
+}
+
+
+#list15 {
+    
+    background: -webkit-linear-gradient(to right, #242424, #a1a1a1);
+    background: -moz-linear-gradient(to right, #242424, #a1a1a1);
+    background: linear-gradient(to right, #242424, #a1a1a1);
+}
+
+
+#list16 {
+    
+    background: -webkit-linear-gradient(to right, #242424, #a1a1a1);
+    background: -moz-linear-gradient(to right, #242424, #a1a1a1);
+    background: linear-gradient(to right, #242424, #a1a1a1);
+}
+
+#shop {
+    background-color: black;
+    font-weight: bold;
+}
+
+.btn-link {
+    color: black;
+}
+
+@media only screen and (max-width:800px) {
+    h1 {
+      font-size: 60px;
+    }
+}
+
+#footer {
+    margin-top: 80px;
+    background-color: black;
+    color: white;
+    height:40px;
+    padding-top: 5px;
+}
