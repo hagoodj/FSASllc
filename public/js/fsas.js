@@ -1,22 +1,24 @@
-$( window ).on( "load", function() {
+$(window).on("load", function () {
 
-    // var documentEl = $(document);
-    // var fadeElement = $('.container');
+    var $window = $(window);
+    var $elem = $(".fadeInContainer")
 
-    // fadeElement.each(function () {
-    //     var $this = $(this);
-    //     $this.delay(2000).fadeIn('slow');
-    // })
+    function isScrolledIntoView($elem, $window) {
+        var docViewTop = $window.scrollTop();
+        var docViewBottom = docViewTop + $window.height();
 
-    // documentEl.on('scroll', function() {
-    //     var scrollPos = documentEl.scrollTop();
+        var elemTop = $elem.offset().top;
+        var elemBottom = elemTop + $elem.height();
 
-    //     fadeElement.each(function() {
-    //         var $this = $(this);
-    //         var elementOffsetTop = $this.offset().top;
-    //         if(scrollPos > elementOffsetTop) $this.css('opacity', 1 - (scrollPos-elementOffsetTop)/400);
-    //     })
-
-    // })
+        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+    }
+    $(document).on("scroll", function () {
+        $elem.each(function() {
+            if (isScrolledIntoView($(this), $window)) {
+              $(this).addClass("animate")
+              console.log("now you see me");
+          }
+        })
+    });
 
 });

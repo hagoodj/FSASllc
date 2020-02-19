@@ -1,11 +1,11 @@
 
 
 body {
-    background: url("../img/background2.jpeg") no-repeat center center fixed; 
+    /* background: url("../img/background2.jpeg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -13,12 +13,67 @@ html {
     scroll-behavior: smooth;
 }
 
-.container {
+.parallax1 {
+    background-image: url('../img/background3.1.jpeg');
+
+    height: 100%; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax2 {
+    background-image: url('../img/background3.2.jpeg');
+
+    height: 100%; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax3 {
+    background-image: url('../img/background3.3.jpeg');
+
+    height: 100%; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax4 {
+    background-image: url('../img/background3.4.jpeg');
+
+    height: 100%; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallax1, .parallax2, .parallax3, .parallax4 {
+      background-attachment: scroll;
+    }
+  }
+
+  #home {
+      padding-top: 80px;
+  }
+
+#about,
+#store,
+#contact,
+#faq {
+    opacity: 0;
     background-color: white;
-    margin-top: 80px;
-    -webkit-box-shadow: 0 0 10px gray;
-    -moz-box-shadow: 0 0 10px gray;
-    box-shadow: 0 0 10px gray;
+    padding-top: 80px;
     padding-left: 40px;
     padding: 40px;
 }
@@ -207,4 +262,89 @@ h1 {
     color: white;
     height:40px;
     padding-top: 5px;
+}
+
+/* #home {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; 
+    -webkit-animation: fadein 2s; 
+    -o-animation: fadein 2s; 
+    animation-fill-mode: forwards; 
+} */
+
+/* #about {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; 
+    -webkit-animation: fadein 2s; 
+    -o-animation: fadein 2s; 
+    animation-delay: .5s;
+    animation-fill-mode: forwards; 
+} */
+
+/* #store {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s; 
+    -o-animation: fadein 2s; 
+    animation-delay: 1s;
+    animation-fill-mode: forwards; 
+} */
+
+/* #contact {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s; 
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards; 
+} */
+
+/* #faq {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; 
+    -webkit-animation: fadein 2s; 
+    -o-animation: fadein 2s; 
+    animation-delay: 2s;
+    animation-fill-mode: forwards; 
+} */
+
+.container.animate {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; 
+    -webkit-animation: fadein 2s; 
+    -o-animation: fadein 2s; 
+    animation-fill-mode: forwards; 
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
